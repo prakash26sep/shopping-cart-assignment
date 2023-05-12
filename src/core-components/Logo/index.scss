@@ -1,0 +1,16 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/variables";
+
+.img {
+  width: 135px;
+  height: auto;
+
+  @include md {
+    width: 100px;
+    margin: 10px;
+  }
+
+  @include sm {
+    width: 80px;
+  }
+}

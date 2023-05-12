@@ -1,0 +1,38 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/variables";
+
+.form-container {
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+  margin-top: 6.5em;
+  padding-bottom: 2em;
+  display: flex;
+  @include sm {
+    flex-direction: column;
+  }
+}
+
+.left-form-register {
+  width: 40%;
+  margin-top: 2em;
+  padding: 0 4em;
+  @include sm {
+    width: 100%;
+    text-align: center;
+    padding: unset;
+  }
+}
+
+.right-form-register {
+  width: 60%;
+  @include sm {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.form-items {
+  display: flex;
+  flex-direction: column;
+}

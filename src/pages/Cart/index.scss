@@ -1,0 +1,15 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/variables";
+
+.cart-page-container {
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+  margin-top: 5.5em;
+  padding-bottom: 2em;
+  background-color: $grey-color;
+  .cart-title {
+    background-color: white;
+    color: black;
+  }
+}

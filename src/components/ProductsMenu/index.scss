@@ -1,0 +1,19 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/variables";
+
+.main-menu ul li {
+  padding: 0.6em;
+  border-bottom: 1px solid #5c5c5c;
+}
+
+.main-menu ul li:hover {
+  background-color: #bcbcbc;
+}
+
+.main-menu ul a {
+  color: #5c5c5c;
+  text-decoration: none;
+}
+
+.main-menu {
+}

@@ -1,0 +1,47 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/variables";
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 25px 15px -25px #908e8e;
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+}
+
+.left-container {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.right-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-container img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+
+  @include md {
+    max-width: 170px;
+  }
+
+  @include sm {
+    max-width: 144px;
+  }
+}
+
+.right-container h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.right-container p {
+  margin: 2em 0;
+  text-align: center;
+}

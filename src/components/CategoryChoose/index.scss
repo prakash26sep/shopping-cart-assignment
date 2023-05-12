@@ -1,0 +1,22 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/variables";
+
+.MuiPaper-root {
+  left: 0 !important;
+  & li {
+    background-color: $secondary-color !important;
+    color: white;
+  }
+}
+
+.category-select-box {
+  &.MuiInputBase-root {
+    background-color: $secondary-color !important;
+    color: white !important;
+  }
+}
+
+.MuiList-root {
+  padding-top: unset !important;
+  padding-bottom: unset !important;
+}

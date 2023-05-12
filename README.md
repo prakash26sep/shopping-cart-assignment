@@ -1,15 +1,39 @@
-# XT Shopping Cart Assignment
+# Sabka Bazaar - online shopping portal
 
-This is the base folder for the shopping cart exercise. You will have all the static assets and mock server responses available in this repo.
+It is an online shopping portal to buy daily need items.
 
-## Getting Started
+## Tech Stack
 
-Clone this repo and run following command for starting the mock server:
+**Client:** React, Typescript, Redux toolkit, SASS, Material UI
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/prakash26sep/shopping-cart-assignment
 ```
-npm install
-npm run start
-# or
-yarn install
-yarn start
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the frontend server
+
+```bash
+  npm run start
+```
+
+Start the static backend server
+
+```bash
+  npm run server
+```
+
+Creating the build
+
+```bash
+  npm run build
 ```

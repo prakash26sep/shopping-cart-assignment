@@ -1,0 +1,28 @@
+.cart-item-container {
+  margin: 12px 0;
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.cart-item-image {
+  height: 80px;
+  width: 100px;
+}
+
+.cart-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quantity-container {
+  align-items: center;
+  display: flex;
+}
+
+.total-price-container {
+  display: flex;
+  align-items: flex-end;
+  line-height: 1.5em;
+}

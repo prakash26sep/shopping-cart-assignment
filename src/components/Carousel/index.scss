@@ -1,0 +1,56 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/variables";
+
+.swiper {
+  position: absolute !important;
+  top: 80% !important;
+  width: 100%;
+  background-color: transparent !important;
+}
+
+.swiper .button {
+  position: absolute !important;
+  top: 80% !important;
+  width: 100%;
+  background-color: transparent !important;
+}
+
+.main-carousel {
+  position: relative;
+  width: 100% !important;
+  margin: 1rem auto;
+  box-shadow: 0px 25px 15px -25px #908e8e;
+  @include md {
+    width: 95% !important;
+  }
+  @include sm {
+    width: 90% !important;
+  }
+}
+
+.slide-change {
+  position: absolute !important;
+  top: 46% !important;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.slide-change button {
+  background-color: #8080807a !important;
+  color: white !important;
+  border-radius: 0;
+}
+
+.swiper .MuiMobileStepper-dot {
+  background-color: grey;
+}
+
+.swiper .MuiMobileStepper-dotActive {
+  background-color: #1976d2;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+}

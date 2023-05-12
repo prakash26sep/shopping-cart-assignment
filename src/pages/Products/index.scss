@@ -1,0 +1,58 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/variables";
+
+.main-container-products {
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  margin-top: 5.5em;
+  padding-bottom: 2em;
+  @include sm {
+    flex-direction: column;
+    margin-top: 4.8em;
+  }
+}
+
+.category-choose-dropdown-container {
+  display: none;
+  @include sm {
+    display: block;
+  }
+}
+
+.category-choose-dropdown-container .MuiPaper-root {
+  left: 0;
+}
+
+.left-menu-container {
+  width: 20%;
+  color: #000;
+  height: calc(100vh - 6.6em);
+  background: #d2d2d2;
+  position: fixed;
+  top: 4.8em;
+  max-width: 205px;
+  z-index: 1;
+  @include md {
+    width: 25%;
+  }
+  @include sm {
+    display: none;
+  }
+}
+.right-menu-container {
+  width: 80%;
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 205px;
+  @include md {
+    margin-left: 25%;
+    width: 75%;
+  }
+  @include sm {
+    margin-left: unset;
+    width: 97%;
+    margin: auto333;
+  }
+}

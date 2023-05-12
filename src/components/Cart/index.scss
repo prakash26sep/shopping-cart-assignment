@@ -1,0 +1,58 @@
+.cart-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 1em;
+  height: 5vh;
+}
+
+.cart-item-list {
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.lowest-price-img {
+  height: 35px;
+  margin-right: 4%;
+}
+
+.cheap-prods {
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 1em;
+  font-size: 0.8em;
+}
+
+.checkout-box {
+  height: 15vh;
+  background-color: white;
+}
+
+.start-shopping {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.start-shopping button {
+  width: 80%;
+  height: 3em;
+}
+
+.promo-text {
+  text-align: center;
+  padding: 0.8vh;
+}
+
+.checkout-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-button-container button {
+  width: 80%;
+}
