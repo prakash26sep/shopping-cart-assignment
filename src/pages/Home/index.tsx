@@ -6,6 +6,7 @@ import { fetchBanners } from "../../store/features/bannerSlice";
 import { fetchCategories } from "../../store/features/categorySlice";
 import Category from "../../components/Categories";
 import "./index.scss";
+import { Box } from "@mui/material";
 
 function Home() {
   const dispatch = useAppDispatch();
@@ -19,7 +20,11 @@ function Home() {
 
   return (
     <div className="container">
-      <Carousel banners={banners} />
+      {banners && banners.length > 0 ? (
+        <Carousel banners={banners} />
+      ) : (
+        <Box className="no-items-found">No Banners found</Box>
+      )}
 
       {categories && categories.length ? (
         categories.map((category) => {
@@ -40,7 +45,7 @@ function Home() {
           }
         })
       ) : (
-        <div>No Categories found!</div>
+        <Box className="no-items-found">No Categories found</Box>
       )}
     </div>
   );

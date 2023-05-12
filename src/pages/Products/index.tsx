@@ -67,7 +67,11 @@ function Products() {
             )
           )
         ) : (
-          <Box sx={{ padding: "1em" }}>No Product found</Box>
+          <Box
+            sx={{ padding: "1em", display: "flex", justifyContent: "center" }}
+          >
+            No Product found
+          </Box>
         )}
       </Box>
     </Box>

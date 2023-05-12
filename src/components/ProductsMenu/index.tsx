@@ -21,7 +21,11 @@ function ProductsMenu({ categories }: Props) {
             </Link>
           ))
         ) : (
-          <div>No Category found!</div>
+          <Box
+            sx={{ padding: "1em", display: "flex", justifyContent: "center" }}
+          >
+            No Product found
+          </Box>
         )}
       </ul>
     </Box>
