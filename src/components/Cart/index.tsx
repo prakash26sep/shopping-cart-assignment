@@ -134,7 +134,13 @@ function ProductCart({ productsInCart, handleClose }: Props) {
             color="secondary"
             variant={"contained"}
             text={"Start Shopping"}
-            onClick={navigate("/products")}
+            onClick={(event: any) => {
+              navigate("/products");
+
+              if (handleClose) {
+                handleClose(event);
+              }
+            }}
           />
         </Box>
       )}
